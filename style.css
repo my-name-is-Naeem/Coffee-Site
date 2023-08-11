@@ -1,0 +1,440 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-color: #deb88798;
+    
+}
+
+nav{
+    display:flex;
+    width:100%;
+    height:80px;
+    margin:0px;
+    padding:20px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#deb88798; 
+    box-shadow:5px 5px 10px #0d0d0d inset
+;
+}
+nav img{
+    height:50px;
+    padding:10px;
+}
+nav img:hover{
+    height:50px;
+    padding:10px;
+    opacity:1.5;
+}
+
+nav ul li{
+    list-style: none;
+    float:left;
+    margin:1px;
+    height:40px;
+    width:120px;
+    color:#fff;
+    line-height: 40px;
+    text-align: center;
+    transition: .2s;
+}
+nav ul li a{
+    text-decoration: none;
+    color:Black;
+    width:100px;
+    display:block;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color:rgba(165, 42, 42, 0.498);
+    box-shadow:5px 5px 10px #ff704d inset
+                -5px -5px 10px #b32400 inset;
+    color:#000000
+
+
+}
+
+.active{
+  background-color:rgba(165, 42, 42, 0.498);
+}
+
+.container{
+    width:100%;
+    height:100%;
+
+}
+.banner{
+    width:100%;
+    height:300px;
+    background-image:url("/Coffee/coffee-beans-top-view-white-background\ Banner\ .jpg");   
+    background-size:650px; 
+    background-position: 69%;
+    box-shadow:10px 10px 50px #0d0d0d inset;
+    
+}
+.main{
+  margin:20px;
+  padding:0;
+}
+.main h1{
+    padding-top:0px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.Question:hover{
+    transform: scale(1.5);
+}
+.mainP{
+    margin-left:40%;
+    align-self: center;
+    border:2px solid black; 
+    padding:30px 15px 30px 15px;
+    text-align: justify;
+    width:300px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.main .Headings{
+    padding-top:20px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight:bolder;
+    font-size: 400;
+
+}
+
+.typesPara{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-right: 2px;
+    text-align: justify;
+   
+    
+}
+
+.mainP:hover{
+
+    background-image: url('https://img.freepik.com/free-photo/coffee-beans-with-props-making-coffee_1220-4536.jpg?w=740&t=st=1675967868~exp=1675968468~hmac=f925e1060319d4f8f56e5d0a64764e9f15201964fd48a0b298f7502b017c08f3');
+    color:#ffffff;
+    background-position: cover;
+    font-style: italic;
+    text-shadow: #5a5a5a;
+    /* background: #deb887a5; */
+    box-shadow:  22px 22px px #5a5a5a;
+             
+}
+.typesPara :hover{
+    transform: scale(1.3);
+    
+}
+
+
+
+.main ul{
+    text-align: justify;   
+}
+
+
+/* tooltip */
+
+
+.banner-text{
+    padding-top:30px;
+    margin-left:200px;
+    text-align: center;
+}
+.banner-text h1{
+    margin-left: 2px;
+    font-size:70px;
+    padding-left:20px;
+    margin-top: 40px;
+    font-family: 'Allerta Stencil', sans-serif;
+
+    letter-spacing: 10px;
+    color:brown;
+    
+}
+img{
+    width:180px;
+    padding-right: 5px;
+    padding-top:20px;
+
+}
+
+#logo{
+    max-width:100%;
+    padding-top:30px;
+    align-items: center;
+    }
+h4{
+    position: sticky;
+    top:0;
+    background-color: brown;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#fff;
+    
+}
+
+
+
+/* for Top Brands */
+
+.TopBrand{
+    margin-left:300px;
+    margin-right:350px;
+    border:1px solid #b32400;
+    padding:10px'
+}
+
+.TopBrand img{
+    padding:10px;
+    width:300px;
+    height:250px;
+    margin:10px;
+    transition: scale 1s ease-in-out;
+    
+}
+
+.TopBrand img:hover{
+  scale:1.1;
+}
+
+.TopBrand p{
+    text-align: justify;
+    margin-top:5px;
+    font-size: 20px;
+    width:100%;
+    height:100%;
+
+
+}
+    
+h2{
+    text-align: justify;
+    padding:0px;
+    margin-top: 0px;;
+
+}
+
+/* gallery */
+
+.Gallery{
+    padding-bottom:10px;
+    margin:10px;
+    width:100%;
+    align-items: center;
+   
+
+
+}
+
+
+.Gallery img{
+  padding: 8px;
+  margin: 19px;
+  width: 331px;
+  border-radius: 104px;
+  background-color: white;
+  transition: transform 0.5s cubic-bezier(0.48, 0.46, 0.19, 0.23);
+
+}
+.Gallery img:hover{
+transform: scale(1.1);
+cursor:pointer;
+}
+
+#Headset{
+    float:right;
+    font-size:50px;
+    position:sticky;
+    top:50%;
+}
+
+/* footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  } */
+
+  /* ------------------------Footer Section Started------------------------ */
+
+  .footer-container{
+    background-image:url(https://wallpaperaccess.com/full/2389930.jpg) ;
+    padding:2rem 0 4rem 0;
+  }
+
+  .footer{
+    width:100%;
+    height:60vh;
+    color:#ffff;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+  }
+
+  .footer-heading{
+    display:flex;
+    flex-direction: column;
+    margin-right: 4rem;
+  }
+
+  .footer-heading  h2{
+    margin-bottom: 2rem;
+    font-family: 'Allerta Stencil', sans-serif;;
+
+    
+
+  }
+
+  .footer-heading a{
+    color:#fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+   
+  }
+
+  .footer-heading a:hover{
+    color:#F5DF4D;
+
+  }
+
+  i{
+    font-size: 34px;
+    margin:20px;
+  }
+  .fa-brands:hover{
+    transform: scale(1.5);
+    transition:all 0.4s ease-out;
+  }
+#facebook{
+    color: blue;
+
+}
+#youtube{
+    color:red;
+}
+#instagram{
+    color:#FFDC80;
+   }
+#twitter{
+    color:#00e2eef5
+}
+  .footer-heading h2:hover{
+    color: #EFC050;
+    transition:all 0.4s ease-out;
+    cursor:pointer;
+  }
+
+  .footer-3 a:hover{
+   
+    transition:all 0.4s ease-out;
+  }
+
+  .form h2{
+    margin-bottom: 2rem;
+    font-family: 'Allerta Stencil', sans-serif;;
+
+  }
+  .form{
+    margin-left: 23px;
+  }
+
+  #form-Name{
+    width:250px;
+    height:40px;
+    border-radius: 4px;
+    outline: none;
+    border:none;
+    padding-left:0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #form-Name::placeholder{
+    color:gray;
+  }
+
+  #form-email{
+    width:250px;
+    height:40px;
+    border-radius: 4px;
+    outline: none;
+    border:none;
+    padding-left:0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  #textarea{
+
+    width:250px;
+    height:100px;
+    border-radius: 4px;
+    outline: none;
+    border:none;
+    padding-left:0.5rem;
+    font-size: 1rem;
+  }
+  #form-btn{
+    width:100px;
+    height:40px;
+    border-radius: 4px;
+    background-color: #F9423D;
+    outline:none;
+    border:none;
+    color:#fff;
+    margin-top:none;
+    margin-left: 60px;
+    justify-content: center;
+  }
+  #form-btn:hover{
+    cursor: pointer;
+    background-color:skyblue;
+    transition:all 0.4s ease-out;
+  }
+
+  .footer-container p{
+    color:#fff;
+    text-align:center;
+    font-weight: bolder;
+  }
+
+  /* 
+Scroll Up Arrow */
+.TopArrow a{
+  position: fixed;
+  bottom:20px;
+  right:1px;
+}
+.fa-circle-chevron-up{
+  font-size: 35px;
+  background:#460B5E;
+  padding:14px;
+  border-radius: 50%;
+  color:#fff;
+}
+
+.fa-circle-chevron-up:hover{
+  font-size: 35px;
+  background:#ae6ec7;
+  padding:14px;
+  border-radius: 50%;
+  color:#fff;
+}
