@@ -25,7 +25,8 @@ nav{
 ;
 }
 nav img{
-    height:50px;
+    height:70px;
+    width: 300px;
     padding:10px;
 }
 nav img:hover{
